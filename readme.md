@@ -1,9 +1,5 @@
 # Three.js Journey
 
-### Raging Sea 
-
-#### demo Url:https://webgl-shader-sea.vercel.app/
-
 ## Setup
 Download [Node.js](https://nodejs.org/en/download/).
 Run this followed commands:
