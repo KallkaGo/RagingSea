@@ -39,7 +39,7 @@ const canvas = document.querySelector('canvas.webgl')
 const scene = new THREE.Scene()
 
 //Fog
-const fog = new THREE.Fog('#262837',0.1,4)
+const fog = new THREE.Fog('#262837',1,2)
 scene.fog = fog
 
 /**
@@ -94,7 +94,7 @@ const waterMaterial = new THREE.ShaderMaterial(
             fogNear: { value: fog.near },
             fogFar:{value:fog.far}
         },
-        fog:true,
+        fog:false,
         side:THREE.DoubleSide,
     }
 )
